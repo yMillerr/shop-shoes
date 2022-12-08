@@ -1,0 +1,86 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+:root {
+    font-size: 62.5%;
+}
+
+body { 
+    font-family: 'Roboto' , sans-serif;
+
+    font-size: 1.6rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 8.2rem;
+
+    margin: 3.9rem auto;
+
+    max-width: 132rem;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 9rem;
+
+    list-style: none;
+
+    text-transform: uppercase;
+}
+
+header input {
+    max-width: 22rem;
+    height: 4.5rem;
+}
+
+main {
+    display: flex;
+}
+
+main .description {
+    max-width: 35.7rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.1rem;
+}
+
+.description h1 {
+
+    font-size: 6rem;
+    line-height: 7rem;
+}
+
+.description p {
+    color: #9C9696;
+}
+
+.description h2 {
+    font-size: 4rem;
+    line-height: 4.7rem;
+}
+
+.description button {
+    width: 27.4rem;
+    height: 9rem;
+
+    background-color: #FF0000;
+    border: none;
+
+    color: #ffff;
+}
+
+main .products {
+    width: 90rem;
+    height: 91.4rem;
+
+    background: #C4C4C4;
+}
+
+/* main .products img:first-child{
+    width: 59.7rem;
+
+} */
